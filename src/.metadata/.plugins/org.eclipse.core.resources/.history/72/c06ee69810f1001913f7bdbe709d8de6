@@ -1,0 +1,5 @@
+package aula43;
+
+public enum DiaSemana {
+
+}

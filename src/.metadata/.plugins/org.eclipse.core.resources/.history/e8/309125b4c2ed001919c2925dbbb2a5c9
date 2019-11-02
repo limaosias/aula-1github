@@ -1,0 +1,26 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Matrizes {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter M:");
+		int m = sc.nextInt();
+		int n = sc.nextInt();
+		System.out.println("Enter N:");	
+
+		int[][] mat = new int[m][n];
+
+		for (int i = 0; m < mat.length; i++) {
+			for (int j = 0; j != mat[m].length; j++) {
+				mat[i][j] = sc.nextInt();
+				System.out.print(mat[m][n] + "");
+
+			}
+		}
+	}
+}
